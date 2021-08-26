@@ -27,7 +27,6 @@ body{
 #menu {
     columns: 420px 2; 
     column-gap: 60px;
-    column-rule: 2px dashed rosybrown;
 }
 
 section {
@@ -62,8 +61,10 @@ dt::after {
 
 .price {
     float: right; 
-    padding: 0 0 35px 20px;
+    padding-right: 20px;
 }
+
+
 
 /* Right-align the text of the address/footer */
 
